@@ -2,12 +2,12 @@
 <view class="root">
   <image class="beijingimage" src="/images/播放背景.jpg" mode="aspectFill"/>
   <view class="content">
-    <view class="gequmingcheng">{{gq}}<view>
+    <view class="gequmingcheng">{{gq}}</view>
     <image class="fengmian" src="{{fm}}" mode="aspectFill"/>
     <view class="control">
     <image class="front" src="/images/front.png" bindtap="last"/>
     <image  class="start" src="{{id}}" bindtap="stop"/>
     <image class="behind" src="/images/behind.png" bindtap="next"/>
-    <view>
-  <view>
-<view>
+    </view>
+  </view>
+</view>
