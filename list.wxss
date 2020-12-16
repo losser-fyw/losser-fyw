@@ -1,0 +1,35 @@
+.item{
+  display:flex;
+  border-bottom:1.5px solid rgb(58, 58, 63);
+}
+.p1{
+  margin-top: 5px;
+  height: 100px;
+  width: 100px;
+  /* border: 50px  red; */
+}
+/* .view text{
+  margin:10px auto ;
+} */
+.right{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: space-around;
+}
+.beijingimage{
+  height : 100%;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+.content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
