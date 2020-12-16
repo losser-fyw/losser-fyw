@@ -1,5 +1,5 @@
 #define D0 -1   //音符对应的相应频率
-#define D1 523  //D表示D调
+#define D1 523  //NOTE_D表示D调
 #define D2 587
 #define D3 659
 #define D4 698
@@ -7,7 +7,7 @@
 #define D6 880
 #define D7 988
 
-#define DL1 261 //DL表示D调LOW
+#define DL1 261 //NOTE_DL表示D调LOW
 #define DL2 294
 #define DL3 329
 #define DL4 349
@@ -15,7 +15,7 @@
 #define DL6 440
 #define DL7 493
 
-#define DH1 1046//DH表示D调HIGH
+#define DH1 1046//NOTE_DH表示D调HIGH
 #define DH2 1175
 #define DH3 1318
 #define DH4 1397
@@ -67,6 +67,7 @@ float durationtiankongzhicheng[]=  //以下为《天空之城》节拍部分，�
   3,0.5,0.5,1,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5,0.5,2,0.5,0.5,0.5,0.5,1,1,3,0.5,0.5,1.5,0.5,1,1,3,0.5,0.5,1.5,0.5,1,1,4,
   0.5,0.5,1,1,0.5,0.5,1.5,0.5,2,1,1,1,1,3,1,2,1,1,0.5,0.5,2,0.5,0.5,1,0.5,0.5,1,1,3,1,2,2,0.5,0.5,2,0.5,0.5,1,0.5,0.5,1,1,3,
 };
+
 int lengthhoulai;//这里定义一个变量，后面用来表示共有多少个音符
 int lengthkanong;
 int lengthtiankongzhicheng;

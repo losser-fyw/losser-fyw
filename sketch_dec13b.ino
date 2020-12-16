@@ -1,4 +1,3 @@
-四川-周峪滔 13:01:44
 #include <ESP8266WiFi.h>
 #include <ArduinoJson.h>
 
@@ -60,8 +59,6 @@ void readReponseContent(char* content, size_t maxSize)
 //
 // 解析数据存储到传入的结构体中 -- Save data to userData struct
 //
-
-四川-周峪滔 13:01:53
 bool parseUserData_test(char* content, struct UserData* userData) 
 {
     // 根据我们需要解析的数据来计算JSON缓冲区最佳大小 -- Compute optimal size of the JSON buffer according to what we need to parse.
@@ -101,8 +98,6 @@ bool parseUserData_test(char* content, struct UserData* userData)
 //
 // 读取数据 -- Read data
 //
-
-四川-周峪滔 13:02:01
 int readData(int dId, char dataStream[])
 {
     // 创建发送请求的URL -- We now create a URI for the request
@@ -165,8 +160,7 @@ void postData(int dId, float val_t, float val_h)
                        "Content-Length: " + String(data.length()) + "\r\n" +                     //发送数据长度
                        "Connection: close\r\n\r\n" +
                        data;
-
-四川-周峪滔 13:02:07
+  
     // 发送指令 -- This will send the request to server
     client.print(post_data);
     // 调试模式串口打印发送的指令 -- The request will be printed if we choose the DEBUG mode
@@ -223,4 +217,3 @@ void loop()
     stream1=readData(DeviceId, DataStreams);
     Serial.println(stream1);
 }
-
