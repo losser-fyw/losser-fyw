@@ -1,0 +1,38 @@
+<view class="root">
+  <image class="beijingimage" src="/images/播放背景.jpg" mode="aspectFill"/>
+  <view class="content">
+  <navigator  bindtap='bind1' url='/pages/play/play' open-type="switchTab" data-id="1">
+    <view class="item">
+      <view class="left">
+        <image src="/images/后来封面.jpg" class="p1"/>
+      </view>
+      <view class="right">
+          <text>歌名：后来</text>
+          <text>时长：00：21</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator  bindtap='bind2' url='/pages/play/play' open-type="switchTab" data-id="2">
+    <view class="item">
+      <view class="left">
+        <image src="/images/卡农封面.jpg" class="p1"/>
+      </view>
+      <view class="right">
+          <text>歌名：卡农</text>
+          <text>时长：00：19</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator  bindtap='bind3' url='/pages/play/play' open-type="switchTab" data-id="3">
+    <view class="item">
+      <view class="left">
+        <image src="/images/天空之城封面.jpg" class="p1"/>
+      </view>
+      <view class="right">
+          <text>歌名：天空之城</text>
+          <text>时长：01：18</text>
+      </view>
+    </view>
+  </navigator>
+  </view>
+</view>
